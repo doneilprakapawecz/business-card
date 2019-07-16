@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background: #2C2141;
+}
+.card{
+    background: #E5E5E5;
+    max-width: 624px;
+    margin: 10% auto 0 auto;
+    border-radius: 16px;
+}
+.card__person--picture{
+    height: 148px;
+    width: 148px;
+    border-radius: 74px;
+    margin:0 auto 0 auto;
+}
+.card--person{
+    display: flex;
+}
+.card--content{
+    width:65%;
+    padding-left: 10px;
+    font-family:  Arial, sans-serif;
+}
+.card--picture{
+    width: 35%;
+    padding: 32px;
+}
+.first--header{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.third--header{
+    font-size: 16px;
+    color:gray;
+    margin-top: 0;
+}
+.color--change{
+    color: rgba(241, 129, 24, 0.863);
+}
+.link{
+    text-decoration: none;
+    color:rgba(255, 0, 13, 0.993);
+}
