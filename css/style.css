@@ -6,30 +6,30 @@ html{
 }
 body{
     background: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
 .card{
     background: #E5E5E5;
     max-width: 624px;
-    margin: 10% auto 0 auto;
+    width: 100%;
     border-radius: 16px;
+    padding: 32px;
 }
 .card__person--picture{
     height: 148px;
     width: 148px;
     border-radius: 74px;
-    margin:0 auto 0 auto;
 }
-.card--person{
-    display: flex;
-}
+
 .card--content{
-    width:65%;
-    padding-left: 10px;
-    font-family:  Arial, sans-serif;
+font-family:  Arial, sans-serif;
 }
 .card--picture{
-    width: 35%;
-    padding: 32px;
+   margin-right: 32px;
 }
 .first--header{
     font-size: 36px;
@@ -39,6 +39,7 @@ body{
     font-size: 16px;
     color:gray;
     margin-top: 0;
+    font-style:italic; /*<em></em>*/
 }
 .color--change{
     color: rgba(241, 129, 24, 0.863);
@@ -46,4 +47,12 @@ body{
 .link{
     text-decoration: none;
     color:rgba(255, 0, 13, 0.993);
+}
+.card--person{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.content{
+    line-height: 22px;
 }
